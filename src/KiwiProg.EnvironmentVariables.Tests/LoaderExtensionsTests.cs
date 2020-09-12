@@ -47,7 +47,7 @@ namespace KiwiProg.EnvironmentVariables.Tests
         }
 
         [Fact]
-        public void Load_Default_Value_If_Environment_Variable_Not_Defined()
+        public void Loads_Default_Value_If_Environment_Variable_Not_Defined()
         {
             this.LoadEnvironmentVariables();
 
