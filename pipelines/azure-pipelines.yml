@@ -9,7 +9,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet build src --configuration $(buildConfiguration)
   displayName: 'Build Solution'
 - task: DotNetCoreCLI@2
   displayName: 'Run unit tests'
